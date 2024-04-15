@@ -1,0 +1,818 @@
+[{
+    "_id": {
+      "$oid": "653c2d3206d8b15f30e9badf"
+    },
+    "analysis_type": "preprocessing",
+    "app_hash": "99936b67efc663dd38a55b18bc2040773b9df39d90332243ba9ad77ce935a2ab",
+    "os": "iOS",
+    "run_id": "1698442545483-Akane.fritz.box-652",
+    "app_id": "com.spotify.client",
+    "certificates": {
+      "p12": [
+        "/Users/pipeline/Git/static-ios-analysis/out/1697732212388-Akane.fritz.box-635/com.spotify.client_324684580_v8.8.80_561/Payload/Spotify.app/BMWAppKitIdentities.bundle/SpotifyRAPI.p12",
+        "/Users/pipeline/Git/static-ios-analysis/out/1697732212388-Akane.fritz.box-635/com.spotify.client_324684580_v8.8.80_561/Payload/Spotify.app/BMWAppKitResources.bundle/IDRhmiConnectedApps.p12",
+        "/Users/pipeline/Git/static-ios-analysis/out/1697732212388-Akane.fritz.box-635/com.spotify.client_324684580_v8.8.80_561/Payload/Spotify.app/BMWAppKitResources.bundle/BMWAppKitDevelopmentInternal.p12",
+        "/Users/pipeline/Git/static-ios-analysis/out/1697732212388-Akane.fritz.box-635/com.spotify.client_324684580_v8.8.80_561/Payload/Spotify.app/BMWAppKitResources.bundle/IDRhmiFeatureListSettings.p12",
+        "/Users/pipeline/Git/static-ios-analysis/out/1697732212388-Akane.fritz.box-635/com.spotify.client_324684580_v8.8.80_561/Payload/Spotify.app/BMWAppKitResources.bundle/IDRhmiFeatureListOnlineServices.p12",
+        "/Users/pipeline/Git/static-ios-analysis/out/1697732212388-Akane.fritz.box-635/com.spotify.client_324684580_v8.8.80_561/Payload/Spotify.app/BMWAppKitResources.bundle/BMWAppKitDevelopment.p12",
+        "/Users/pipeline/Git/static-ios-analysis/out/1697732212388-Akane.fritz.box-635/com.spotify.client_324684580_v8.8.80_561/Payload/Spotify.app/BMWAppKitResources.bundle/IDRhmiFeatureListMultimedia.p12",
+        "/Users/pipeline/Git/static-ios-analysis/out/1697732212388-Akane.fritz.box-635/com.spotify.client_324684580_v8.8.80_561/Payload/Spotify.app/BMWAppKitResources.bundle/IDRhmiFeatureListMediaRadio.p12",
+        "/Users/pipeline/Git/static-ios-analysis/out/1697732212388-Akane.fritz.box-635/com.spotify.client_324684580_v8.8.80_561/Payload/Spotify.app/BMWAppKitResources.bundle/IDCDSClient.p12",
+        "/Users/pipeline/Git/static-ios-analysis/out/1697732212388-Akane.fritz.box-635/com.spotify.client_324684580_v8.8.80_561/Payload/Spotify.app/BMWAppKitResources.bundle/IDRhmiFeatureListNavigation.p12",
+        "/Users/pipeline/Git/static-ios-analysis/out/1697732212388-Akane.fritz.box-635/com.spotify.client_324684580_v8.8.80_561/Payload/Spotify.app/BMWAppKitResources.bundle/IDRhmiFeatureListRadio.p12"
+      ]
+    },
+    "created_at": {
+      "$date": "2023-10-27T23:35:46.165Z"
+    },
+    "entitlements": {
+      "path": "ios/apps/msr_dataset_2023_10/1697732212388-Akane.fritz.box-635/entitlements_2023-10-27 23:35:46.104171",
+      "raw_data": {
+        "com.apple.developer.group-session": true,
+        "com.apple.developer.networking.multicast": true,
+        "application-identifier": "8W66MEA7DD.com.spotify.client",
+        "aps-environment": "production",
+        "com.apple.developer.carplay-audio": true,
+        "com.apple.developer.associated-domains": [
+          "applinks:wl.spotify.com",
+          "applinks:spotify.app.link",
+          "applinks:spotify.link",
+          "applinks:spotify.com",
+          "applinks:www.spotify.com",
+          "applinks:open.spotify.com",
+          "applinks:play.spotify.com",
+          "applinks:e3e85fbda0b93c236cc70b01a5c0a393.ulink.adjust.com",
+          "applinks:accounts.spotify.com",
+          "applinks:q4mn.adj.st",
+          "applinks:partner-links.spotify.com",
+          "applinks:spotify-alternate.app.link",
+          "applinks:link.tospotify.com",
+          "applinks:spotify.test-app.link",
+          "applinks:spotify-alternate.test-app.link",
+          "activitycontinuation:open.spotify.com",
+          "activitycontinuation:play.spotify.com",
+          "webcredentials:open.spotify.com",
+          "webcredentials:accounts.spotify.com"
+        ],
+        "com.apple.developer.networking.wifi-info": true,
+        "com.apple.developer.siri": true,
+        "com.apple.developer.team-identifier": "2FNC3A47ZF",
+        "com.apple.developer.healthkit": true,
+        "com.apple.developer.applesignin": [
+          "Default"
+        ],
+        "keychain-access-groups": [
+          "8W66MEA7DD.com.spotify.client.extension-credentials"
+        ],
+        "com.apple.developer.healthkit.access": [],
+        "com.apple.security.application-groups": [
+          "group.com.spotify.client.notification",
+          "group.com.spotify.client.widget"
+        ]
+      },
+      "universal_links": [
+        "applinks:wl.spotify.com",
+        "applinks:spotify.app.link",
+        "applinks:spotify.link",
+        "applinks:spotify.com",
+        "applinks:www.spotify.com",
+        "applinks:open.spotify.com",
+        "applinks:play.spotify.com",
+        "applinks:e3e85fbda0b93c236cc70b01a5c0a393.ulink.adjust.com",
+        "applinks:accounts.spotify.com",
+        "applinks:q4mn.adj.st",
+        "applinks:partner-links.spotify.com",
+        "applinks:spotify-alternate.app.link",
+        "applinks:link.tospotify.com",
+        "applinks:spotify.test-app.link",
+        "applinks:spotify-alternate.test-app.link"
+      ],
+      "has_multicast": true,
+      "entitlements": [
+        {
+          "name": "com.apple.developer.group-session",
+          "value": true
+        },
+        {
+          "name": "com.apple.developer.networking.multicast",
+          "value": true
+        },
+        {
+          "name": "application-identifier",
+          "value": "8W66MEA7DD.com.spotify.client"
+        },
+        {
+          "name": "aps-environment",
+          "value": "production"
+        },
+        {
+          "name": "com.apple.developer.carplay-audio",
+          "value": true
+        },
+        {
+          "name": "com.apple.developer.associated-domains",
+          "value": [
+            "applinks:wl.spotify.com",
+            "applinks:spotify.app.link",
+            "applinks:spotify.link",
+            "applinks:spotify.com",
+            "applinks:www.spotify.com",
+            "applinks:open.spotify.com",
+            "applinks:play.spotify.com",
+            "applinks:e3e85fbda0b93c236cc70b01a5c0a393.ulink.adjust.com",
+            "applinks:accounts.spotify.com",
+            "applinks:q4mn.adj.st",
+            "applinks:partner-links.spotify.com",
+            "applinks:spotify-alternate.app.link",
+            "applinks:link.tospotify.com",
+            "applinks:spotify.test-app.link",
+            "applinks:spotify-alternate.test-app.link",
+            "activitycontinuation:open.spotify.com",
+            "activitycontinuation:play.spotify.com",
+            "webcredentials:open.spotify.com",
+            "webcredentials:accounts.spotify.com"
+          ]
+        },
+        {
+          "name": "com.apple.developer.networking.wifi-info",
+          "value": true
+        },
+        {
+          "name": "com.apple.developer.siri",
+          "value": true
+        },
+        {
+          "name": "com.apple.developer.team-identifier",
+          "value": "2FNC3A47ZF"
+        },
+        {
+          "name": "com.apple.developer.healthkit",
+          "value": true
+        },
+        {
+          "name": "com.apple.developer.applesignin",
+          "value": [
+            "Default"
+          ]
+        },
+        {
+          "name": "keychain-access-groups",
+          "value": [
+            "8W66MEA7DD.com.spotify.client.extension-credentials"
+          ]
+        },
+        {
+          "name": "com.apple.developer.healthkit.access",
+          "value": []
+        },
+        {
+          "name": "com.apple.security.application-groups",
+          "value": [
+            "group.com.spotify.client.notification",
+            "group.com.spotify.client.widget"
+          ]
+        }
+      ]
+    },
+    "frameworks": [
+      {
+        "framework": "libswift_Concurrency.dylib",
+        "version": null
+      },
+      {
+        "framework": "SpotifyShared.framework",
+        "version": "1.0"
+      }
+    ],
+    "metadata": {
+      "name": "Spotify: Musik und Podcasts",
+      "developer_name": "Spotify",
+      "version": 860548672,
+      "urls": [
+        {
+          "link": "https://www.spotify.com/",
+          "link_name": "Website des Entwicklers"
+        },
+        {
+          "link": "https://support.spotify.com/",
+          "link_name": "App-Support"
+        },
+        {
+          "link": "http://www.spotify.com/legal/privacy-policy/",
+          "link_name": "Datenschutzrichtlinie"
+        }
+      ],
+      "description": [
+        "Spotify ist die ultimative Musik-App, um kostenlos Musik, Podcasts, Hörbücher und mehr zu streamen. Erhalte Zugriff auf über 80 Millionen Songs und mehr als 3,6 Millionen Podcasts. Hör deine Lieblingssongs, entdecke Musik aus der ganzen Welt und finde Podcasts und Hörspiele für jede Situation. Mit Spotify Premium kannst du deine Lieblingssongs und Podcast-Folgen auch ganz einfach herunterladen, um sie jederzeit offline zu hören, wenn du mal kein WLAN oder Internet hast.",
+        "WARUM SPOTIFY FÜR MUSIK UND PODCASTS?",
+        "• Suche nach Songtiteln, Künstler*innen oder Alben, indem du den Liedtext eingibst.",
+        "• Entdecke neue Musik, Playlists, exklusive Podcasts und Hörspiele.",
+        "• Hör Playlists, die auf deinem Musikgeschmack basieren und speziell für dich zusammengestellt werden.",
+        "• Folge deinen Lieblingspodcasts und erstelle deine eigene Podcast-Bibliothek.",
+        "• Erstelle Playlists mit deinen Lieblingssongs und teile sie mit anderen.",
+        "• Finde immer die passende Musik, egal wo du bist oder was du gerade machst.",
+        "Spotify kannst du auf Fernsehern, Spielkonsolen, Smartwatches und im Auto nutzen. Mit Spotify Connect, Bluetooth und Apple AirPlay kannst du Musik auch auf anderen Geräten abspielen. Und die Philips Hue wandelt deine Musik sogar in passende Licht-Effekte um.",
+        "Höre populäre exklusive Podcasts & Genres wie:",
+        "• Hobbylos",
+        "• Gemischtes Hack",
+        "• Fest & Flauschig",
+        "• Dick & Doof",
+        "• Die Nervigen",
+        "• Comedy",
+        "• Gesellschaft & Kultur",
+        "• True Crime",
+        "Entdecke die neueste Musik von Künstler*innen wie:",
+        "• Bonez MC",
+        "• Luciano",
+        "• Ed Sheeran",
+        "• LEA",
+        "• Billie Eilish",
+        "Hör deine Lieblingskünstler*innen nonstop mit Spotify Radio. Hier sind ein paar der Künstler*innen, die wir schon ausgewählt haben:",
+        "• Harry Styles",
+        "• OneRepublic",
+        "• Rema",
+        "• Eminem",
+        "• Drake",
+        "• Beyoncé",
+        "• Apache 207",
+        "Höre mehr als 40 Kategorien – Neuerscheinungen, Charts, Live-Events , Für dich erstellt, Sommer, Pop, Fitness, Hip-Hop, Stimmung, Party, LGBTQ*, Dance/Electronic, Alternative, Indie, EQUAL, Wellness, Rock, Frequency, RnB, Disney, Jahrzehnte, RADAR, Chillout, Schlafen, Im Auto, Kinder und Familie, Karibik, Klassik, Romantik, Jazz, Folk & Akustik, Afro, Christian & Gospel und Country.",
+        "WARUM SPOTIFY PREMIUM?",
+        "• Musik streamen, nonstop und ohne Werbeunterbrechungen",
+        "• Songs herunterladen und offline hören",
+        "• Bessere Soundqualität",
+        "• Als Duo, Family oder Student Abo erhältlich",
+        "• Filter für unangemessene Inhalte für Kinder",
+        "Datenschutzrichtlinie: https://www.spotify.com/de/legal/privacy-policy/",
+        "Nutzungsbedingungen: https://www.spotify.com/de/legal/end-user-agreement/",
+        "Dir gefällt Spotify?",
+        "Gib uns auf Facebook ein „Gefällt mir“: http://www.facebook.com/SpotifyDeutschland",
+        "Folge uns auf Instagram: https://instagram.com/spotifyde",
+        "Folge uns auf Twitter: https://twitter.com/spotifyde",
+        "Spotify – der Soundtrack für dein Leben. Jetzt Abo holen oder Musik und Podcasts kostenlos hören."
+      ],
+      "genres": {
+        "App Store": [
+          "Musik",
+          "Unterhaltung"
+        ]
+      }
+    },
+    "path": "ios/apps/msr_dataset_2023_10/1697732212388-Akane.fritz.box-635/static_analysis_2023-10-27 23:35:46.165104.json",
+    "plist": {
+      "path": "/Users/pipeline/Git/static-ios-analysis/out/1697732212388-Akane.fritz.box-635/Info.plist",
+      "raw_data": {
+        "CFBundlePackageType": "APPL",
+        "UILaunchStoryboardName": "LaunchScreen",
+        "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+        "RemoteConfigPropertySet": "11893a7ae15c59ff72d712df9fed0f2d79d7508fce41ce1aa52a7265ed335a2d",
+        "DTPlatformVersion": "17.0",
+        "DTSDKBuild": "21A325",
+        "UIStatusBarStyle": "UIStatusBarStyleLightContent",
+        "CFBundleIcons~ipad": {
+          "CFBundlePrimaryIcon": {
+            "CFBundleIconFiles": [
+              "AppIcon60x60",
+              "AppIcon76x76"
+            ],
+            "CFBundleIconName": "AppIcon"
+          }
+        },
+        "RemoteConfigClientID": "com.spotify.client",
+        "SpotifyVersionPacked": 888000570,
+        "LSRequiresIPhoneOS": true,
+        "NSCameraUsageDescription": "This lets you scan Spotify Codes.",
+        "SpotifyBuildTimestamp": 1697555126,
+        "SpotifyVersionCommit": "76d7785567ed3f2b04943b8cf51d1dc75248e0cb",
+        "FirebaseAppDelegateProxyEnabled": false,
+        "LSSupportsOpeningDocumentsInPlace": true,
+        "CFBundleDisplayName": "Spotify",
+        "FIREBASE_ANALYTICS_COLLECTION_ENABLED": true,
+        "DTXcodeBuild": "15A240d",
+        "CFBundleLocalizations": [
+          "mk",
+          "gl",
+          "en-GB",
+          "zh-Hant-HK",
+          "bs",
+          "eu",
+          "ar-SA",
+          "ar-MA",
+          "ar-EG",
+          "en",
+          "es",
+          "fr",
+          "de",
+          "it",
+          "nl",
+          "pl",
+          "zh-Hant",
+          "es-MX",
+          "el",
+          "ms",
+          "pt",
+          "tr",
+          "ja",
+          "hu",
+          "fi",
+          "sv",
+          "fr-CA",
+          "id",
+          "es-419",
+          "cs",
+          "th",
+          "vi",
+          "he",
+          "ar",
+          "ru",
+          "ko",
+          "zh-Hans",
+          "hi",
+          "sw",
+          "gu",
+          "kn",
+          "uk",
+          "ro",
+          "pt-PT",
+          "sk",
+          "hr",
+          "da",
+          "nb",
+          "ur",
+          "pa-Arab",
+          "mr",
+          "te",
+          "ta",
+          "fa",
+          "fil",
+          "ml",
+          "am",
+          "pa",
+          "az",
+          "zu",
+          "ne",
+          "af",
+          "sr-Latn",
+          "bg",
+          "lt",
+          "sl",
+          "lv",
+          "et",
+          "is",
+          "bn",
+          "bho",
+          "or",
+          "es-ES",
+          "es-AR",
+          "ca"
+        ],
+        "CADisableMinimumFrameDurationOnPhone": true,
+        "CFBundleIdentifier": "com.spotify.client",
+        "NSUserActivityTypes": [
+          "com.spotify.client.view",
+          "com.apple.intents-service"
+        ],
+        "UIFileSharingEnabled": true,
+        "UIDeviceFamily": [
+          1,
+          2
+        ],
+        "LSApplicationQueriesSchemes": [
+          "alexa",
+          "anchorfm",
+          "bosemusic",
+          "comgooglemaps",
+          "facebook-stories",
+          "fb-messenger",
+          "fb-messenger-share-api",
+          "fbapi",
+          "fbapi20130214",
+          "fbapi20130410",
+          "fbapi20130702",
+          "fbapi20131010",
+          "fbapi20131219",
+          "fbapi20140116",
+          "fbapi20140410",
+          "fbapi20150313",
+          "fbapi20150629",
+          "fbapi20160328",
+          "fbauth",
+          "fbauth2",
+          "fbshareextension",
+          "googlegmail",
+          "instagram",
+          "instagram-stories",
+          "io.bettylabs.Disco",
+          "jabradevices",
+          "jp.co.sony.songpal.mdr",
+          "jp.syncpower.petitlyricsmaker",
+          "labcaviar",
+          "line",
+          "mailto",
+          "maps",
+          "ms-outlook",
+          "sms",
+          "snapchat",
+          "sonos-1",
+          "sonos-2",
+          "spotifyartists",
+          "spotifylegacyapp",
+          "twitter",
+          "uber",
+          "waze",
+          "wazespotify",
+          "whatsapp",
+          "ymail"
+        ],
+        "CFBundleSignature": "????",
+        "CFBundleInfoDictionaryVersion": "6.0",
+        "CFBundleIcons": {
+          "CFBundlePrimaryIcon": {
+            "CFBundleIconFiles": [
+              "AppIcon60x60"
+            ],
+            "CFBundleIconName": "AppIcon"
+          }
+        },
+        "CFBundleSupportedPlatforms": [
+          "iPhoneOS"
+        ],
+        "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you.",
+        "UIRequiresFullScreen": false,
+        "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+        "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+        "ObservablePropertiesIds": [
+          "ios-rc-observable-aa-test.observable_property"
+        ],
+        "FacebookAutoLogAppEventsEnabled": false,
+        "MinimumOSVersion": "14.0",
+        "NSBluetoothPeripheralUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+        "CFBundleName": "Spotify",
+        "SKAdNetworkItems": [
+          {
+            "SKAdNetworkIdentifier": "2fnc3a47zf.skadnetwork"
+          }
+        ],
+        "CFBundleShortVersionString": "8.8.80",
+        "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+        "UIBackgroundModes": [
+          "audio",
+          "external-accessory",
+          "remote-notification",
+          "fetch",
+          "processing",
+          "bluetooth-central"
+        ],
+        "UIRequiredDeviceCapabilities": [
+          "arm64"
+        ],
+        "FacebookAutoInitEnabled": false,
+        "SpotifyVersionMedium": "8.8.80.570",
+        "branch_universal_link_domains": [
+          "wl.spotify.com",
+          "spotify-alternate.app.link",
+          "link.tospotify.com",
+          "spotify.test-app.link",
+          "spotify-alternate.test-app.link",
+          "spotify.link",
+          "spotify.app.link"
+        ],
+        "CFBundleExecutable": "Spotify",
+        "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+        "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+        "UISupportedInterfaceOrientations~ipad": [
+          "UIInterfaceOrientationLandscapeRight",
+          "UIInterfaceOrientationLandscapeLeft",
+          "UIInterfaceOrientationPortraitUpsideDown",
+          "UIInterfaceOrientationPortrait"
+        ],
+        "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+        "ITSAppUsesNonExemptEncryption": false,
+        "FirebaseCrashlyticsCollectionEnabled": true,
+        "FacebookAppID": "174829003346",
+        "DTAppStoreToolsBuild": "15A240a",
+        "UIRequiresPersistentWiFi": true,
+        "FirebaseScreenReportingEnabled": false,
+        "BuildMachineOSBuild": "22G120",
+        "DTPlatformName": "iphoneos",
+        "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+        "branch_key": "key_live_pfaVQo61xda7Zq1zC1ca3igayxarnljw",
+        "CFBundleVersion": "888000570",
+        "CFBundleDevelopmentRegion": "en",
+        "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+        "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLName": "com.spotify",
+            "CFBundleURLSchemes": [
+              "spotify"
+            ]
+          },
+          {
+            "CFBundleURLName": "com.spotify.action",
+            "CFBundleURLSchemes": [
+              "spotify-action"
+            ]
+          },
+          {
+            "CFBundleTypeRole": "Editor",
+            "CFBundleURLName": "com.spotify.main.app",
+            "CFBundleURLSchemes": [
+              "spotifymainapp"
+            ]
+          },
+          {
+            "CFBundleTypeRole": "Editor",
+            "CFBundleURLName": "com.spotify.bmw.multiapp",
+            "CFBundleURLSchemes": [
+              "spotifyexternal"
+            ]
+          },
+          {
+            "CFBundleURLName": "com.spotify.adaptiveauthentication",
+            "CFBundleURLSchemes": [
+              "spotify-auth-music"
+            ]
+          },
+          {
+            "CFBundleURLName": "com.spotify.facebook",
+            "CFBundleURLSchemes": [
+              "fb134519659678",
+              "fb174829003346"
+            ]
+          },
+          {
+            "CFBundleURLName": "com.spotify.googlesignin",
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.1046568431490-jb26iu4es3mg9jc71biqt9288igqk4ko"
+            ]
+          },
+          {
+            "CFBundleURLName": "com.spotify.waze",
+            "CFBundleURLSchemes": [
+              "spotifywaze"
+            ]
+          }
+        ],
+        "SpotifyVersionShort": "8.8.80",
+        "BGTaskSchedulerPermittedIdentifiers": [
+          "com.spotify.client.eventsender.trigger",
+          "com.spotify.client.remoteconfiguration.refresh",
+          "com.spotify.client.notification.delivered_events"
+        ],
+        "DTSDKName": "iphoneos17.0",
+        "SpotifyVersionLong": "8.8.80.570.g76d7785",
+        "UISupportedExternalAccessoryProtocols": [
+          "com.bmw.a4a1",
+          "com.bmw.a4a2",
+          "com.bmw.a4a3",
+          "com.bmw.a4a4",
+          "com.bmw.a4a5",
+          "com.bmw.a4a6",
+          "com.bmw.a4a7",
+          "com.bmw.a4a8",
+          "com.bmw.a4a9",
+          "com.bmw.a4a10",
+          "com.bmw.a4a11",
+          "com.bmw.a4a12",
+          "com.bmw.a4a13",
+          "com.bmw.a4a14",
+          "com.bmw.a4a",
+          "com.spotify.wamp.2.msgpack.batched",
+          "com.spotify.btheadphones",
+          "com.spotify.go",
+          "com.amazon.btfor3p"
+        ],
+        "NSBonjourServices": [
+          "_spotify-connect._tcp",
+          "_googlecast._tcp",
+          "_CC32E753._googlecast._tcp",
+          "_6B7652A6._googlecast._tcp",
+          "_DF630089._googlecast._tcp"
+        ],
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": false,
+          "NSAllowsLocalNetworking": true
+        },
+        "DTPlatformBuild": "21A325",
+        "DTXcode": "1500",
+        "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
+        "UISupportedInterfaceOrientations": [
+          "UIInterfaceOrientationPortrait"
+        ]
+      },
+      "en_strings": {
+        "NSAppleMusicUsageDescription": "This will let you play your imported music or podcasts on Spotify.",
+        "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+        "NSBluetoothPeripheralUsageDescription": "Spotify will use Bluetooth to let you find and join group sessions with nearby phones.",
+        "NSMicrophoneUsageDescription": "This lets you record audio and search Spotify with your voice.",
+        "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+        "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+        "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+        "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
+        "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+        "NSCameraUsageDescription": "This lets you scan Spotify Codes and take photos for your profile and playlists.",
+        "NSUserTrackingUsageDescription": "Your data will be used to deliver personalised ads or content to you.",
+        "NSBluetoothAlwaysUsageDescription": "Spotify will use Bluetooth to let you find and join group sessions with nearby phones.",
+        "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library."
+      },
+      "de_strings": {
+        "NSAppleMusicUsageDescription": "Damit kannst du importierte Musik oder Podcasts auf Spotify abspielen.",
+        "NSBluetoothAlwaysUsageDescription": "Spotify verwendet Bluetooth, damit du Gruppen-Sessions finden und ihnen beitreten kannst. Die Handys der anderen Teilnehmer*innen müssen sich dazu in der Nähe befinden.",
+        "NSBluetoothPeripheralUsageDescription": "Spotify verwendet Bluetooth, damit du Gruppen-Sessions finden und ihnen beitreten kannst. Die Handys der anderen Teilnehmer*innen müssen sich dazu in der Nähe befinden.",
+        "NSCameraUsageDescription": "Damit kannst du Spotify Codes scannen und Fotos für dein Profil und deine Playlists aufnehmen.",
+        "NSFaceIDUsageDescription": "Damit kannst du Zugriffsbeschränkungen mithilfe von Face ID festlegen.",
+        "NSHealthShareUsageDescription": "Spotify verwendet HealthKit-Daten, um dir personalisierte Audioempfehlungen für deine Workouts bereitzustellen.",
+        "NSHealthUpdateUsageDescription": "Spotify verwendet HealthKit-Daten, um dir personalisierte Audioempfehlungen für deine Workouts bereitzustellen.",
+        "NSLocalNetworkUsageDescription": "Dadurch kannst du Spotify auf verschiedenen Geräten abspielen. Spotify erhält außerdem Zugriff auf lokale Audiodateien.",
+        "NSMicrophoneUsageDescription": "Dadurch kannst du per Sprachbefehl Audio aufnehmen und Spotify durchsuchen.",
+        "NSMotionUsageDescription": "Wir nutzen diese Daten, um zu verstehen, welche Audioinhalte dich am meisten motivieren.",
+        "NSPhotoLibraryAddUsageDescription": "Damit kannst du Bilder in deiner Fotobibliothek speichern.",
+        "NSPhotoLibraryUsageDescription": "Damit kannst du Bilder aus deiner Fotogalerie auswählen.",
+        "NSUserTrackingUsageDescription": "Deine Daten werden verwendet, um dir personalisierte Ads oder Inhalte zu präsentieren."
+      },
+      "permissions": [
+        {
+          "permission": "NSBluetoothAlwaysUsageDescription",
+          "value": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "description": "A message that tells the user why the app needs access to Bluetooth.",
+          "type": "String"
+        },
+        {
+          "permission": "NSBluetoothPeripheralUsageDescription",
+          "value": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "description": "DEPRECATED",
+          "type": "String"
+        },
+        {
+          "permission": "NSCameraUsageDescription",
+          "value": "This lets you scan Spotify Codes.",
+          "description": "A message that tells the user why the app is requesting access to the device's camera.",
+          "type": "String"
+        },
+        {
+          "permission": "NSMicrophoneUsageDescription",
+          "value": "This lets you control Spotify using your voice.",
+          "description": "A message that tells the user why the app is requesting access to the device's microphone.",
+          "type": "String"
+        },
+        {
+          "permission": "NSFaceIDUsageDescription",
+          "value": "This lets you set access restrictions using Face ID.",
+          "description": "A message that tells the user why the app is requesting the ability to authenticate with Face ID.",
+          "type": "String"
+        },
+        {
+          "permission": "NSHealthShareUsageDescription",
+          "value": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "description": "A message to the user that explains why the app requested permission to read samples from the HealthKit store.",
+          "type": "String"
+        },
+        {
+          "permission": "NSHealthUpdateUsageDescription",
+          "value": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "description": "A message to the user that explains why the app requested permission to save samples to the HealthKit store.",
+          "type": "String"
+        },
+        {
+          "permission": "NSAppleMusicUsageDescription",
+          "value": "This will let you play your imported music on Spotify.",
+          "description": "A message that tells the user why the app is requesting access to the user's media library.",
+          "type": "String"
+        },
+        {
+          "permission": "NSMotionUsageDescription",
+          "value": "We will use this to understand which audio motivates you most.",
+          "description": "A message that tells the user why the app is requesting access to the device's motion data.",
+          "type": "String"
+        },
+        {
+          "permission": "NSLocalNetworkUsageDescription",
+          "value": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "description": "A message that tells the user why the app is requesting access to the local network.",
+          "type": "String"
+        },
+        {
+          "permission": "NSPhotoLibraryAddUsageDescription",
+          "value": "This lets you save images to your Photo Library.",
+          "description": "A message that tells the user why the app is requesting add-only access to the user's photo library.",
+          "type": "String"
+        },
+        {
+          "permission": "NSPhotoLibraryUsageDescription",
+          "value": "This lets you select images from your Photo Library.",
+          "description": "A message that tells the user why the app is requesting access to the user's photo library.",
+          "type": "String"
+        },
+        {
+          "permission": "NSUserTrackingUsageDescription",
+          "value": "Your data will be used to deliver personalized ads or content to you.",
+          "description": "A message that informs the user why an app is requesting permission to use data for tracking the user or the device.",
+          "type": "String"
+        },
+        {
+          "permission": "ITSAppUsesNonExemptEncryption",
+          "value": false,
+          "description": "A Boolean value indicating whether the app uses encryption.",
+          "type": "Boolean"
+        },
+        {
+          "permission": "UIRequiresPersistentWiFi",
+          "value": true,
+          "description": "A Boolean value indicating whether the app requires a Wi-Fi connection.",
+          "type": "Boolean"
+        }
+      ],
+      "supported_platforms": [
+        "iPhoneOS"
+      ],
+      "build_version": "888000570",
+      "app_version": "8.8.80",
+      "minimum_ios_version": "14.0",
+      "app_transport_security_changes": {
+        "NSAllowsArbitraryLoads": false,
+        "NSAllowsLocalNetworking": true
+      },
+      "ad_network_ids": [
+        {
+          "SKAdNetworkIdentifier": "2fnc3a47zf.skadnetwork"
+        }
+      ],
+      "custom_url_schemes": [
+        [
+          {
+            "CFBundleURLName": "com.spotify",
+            "CFBundleURLSchemes": [
+              "spotify"
+            ]
+          },
+          {
+            "CFBundleURLName": "com.spotify.action",
+            "CFBundleURLSchemes": [
+              "spotify-action"
+            ]
+          },
+          {
+            "CFBundleTypeRole": "Editor",
+            "CFBundleURLName": "com.spotify.main.app",
+            "CFBundleURLSchemes": [
+              "spotifymainapp"
+            ]
+          },
+          {
+            "CFBundleTypeRole": "Editor",
+            "CFBundleURLName": "com.spotify.bmw.multiapp",
+            "CFBundleURLSchemes": [
+              "spotifyexternal"
+            ]
+          },
+          {
+            "CFBundleURLName": "com.spotify.adaptiveauthentication",
+            "CFBundleURLSchemes": [
+              "spotify-auth-music"
+            ]
+          },
+          {
+            "CFBundleURLName": "com.spotify.facebook",
+            "CFBundleURLSchemes": [
+              "fb134519659678",
+              "fb174829003346"
+            ]
+          },
+          {
+            "CFBundleURLName": "com.spotify.googlesignin",
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.1046568431490-jb26iu4es3mg9jc71biqt9288igqk4ko"
+            ]
+          },
+          {
+            "CFBundleURLName": "com.spotify.waze",
+            "CFBundleURLSchemes": [
+              "spotifywaze"
+            ]
+          }
+        ]
+      ],
+      "local_network_usage_description": [
+        "This lets you listen on different devices. Spotify will also get access to local audio files."
+      ],
+      "bonjour_services": [
+        [
+          "_spotify-connect._tcp",
+          "_googlecast._tcp",
+          "_CC32E753._googlecast._tcp",
+          "_6B7652A6._googlecast._tcp",
+          "_DF630089._googlecast._tcp"
+        ]
+      ],
+      "api_keys": []
+    },
+    "tool": "static-analysis",
+    "icon": {
+      "path": "/Users/pipeline/Git/xpps/cross-platform-pps/code/xpa/app_matcher/out/ios_images/com.spotify.client_icon",
+      "ahash": "003c7e7e7e7e3c00",
+      "phash": "94391fc6696934b6",
+      "whash": "003c7e7e7e7e3c00",
+      "crhash": "f0dc2f2b23a6c0f0,33f0dc9696d4f033,1d2e5365e1d9941c,1c2e5367e199c41c,1c0e5363e1894400"
+    }
+  }
+]

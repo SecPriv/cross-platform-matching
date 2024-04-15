@@ -1,0 +1,777 @@
+[{
+  "_id": {
+    "$oid": "65401b7106d8b15f30edd363"
+  },
+  "analysis_type": "preprocessing",
+  "app_hash": "bac6dba4c7d3d292a4bf64f18e659abee47984672729b95cad306c37c8f214ff",
+  "os": "Android",
+  "run_id": "1698700144112-cross-platform-priv-516",
+  "apk_info": {
+    "filename": "com.spotify.music.apk",
+    "package_id": "com.spotify.music",
+    "app_name": "Spotify",
+    "version_code": "106434657",
+    "version_name": "8.8.80.599",
+    "min_sdk_version": "21",
+    "target_sdk_version": "33",
+    "max_sdk_version": null,
+    "compile_sdk_version": "34",
+    "uses_permissions": [
+      [
+        "android.permission.READ_PHONE_STATE",
+        22
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.BROADCAST_STICKY",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        null
+      ],
+      [
+        "android.permission.NFC",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_AUDIO",
+        null
+      ],
+      [
+        "android.permission.READ_MEDIA_IMAGES",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "com.spotify.music.permission.C2D_MESSAGE",
+        null
+      ],
+      [
+        "com.spotify.music.permission.INTERNAL_BROADCAST",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_ADMIN",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_CONNECT",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_SCAN",
+        null
+      ],
+      [
+        "android.permission.RECORD_AUDIO",
+        null
+      ],
+      [
+        "com.spotify.music.permission.SECURED_BROADCAST",
+        null
+      ],
+      [
+        "android.permission.USE_CREDENTIALS",
+        null
+      ],
+      [
+        "android.permission.GET_ACCOUNTS",
+        null
+      ],
+      [
+        "com.sony.snei.np.android.account.provider.permission.DUID_READ_PROVIDER",
+        null
+      ],
+      [
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "com.samsung.WATCH_APP_TYPE.Companion",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+        null
+      ],
+      [
+        "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+        null
+      ],
+      [
+        "com.google.android.gms.permission.AD_ID",
+        null
+      ],
+      [
+        "com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_ADVERTISE",
+        null
+      ],
+      [
+        "com.sec.android.app.clockpackage.permission.READ_ALARM",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ],
+      [
+        "com.google.android.apps.meetings.permission.MEET_LIVE_SHARING",
+        null
+      ],
+      [
+        "com.spotify.music.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ],
+      [
+        "com.android.vending.BILLING",
+        null
+      ],
+      [
+        "com.samsung.android.samsungaccount.permission.ACCOUNT_MANAGER",
+        null
+      ]
+    ],
+    "uses_features": [
+      [
+        "android.hardware.camera",
+        "false",
+        null
+      ],
+      [
+        "android.hardware.bluetooth",
+        "false",
+        null
+      ],
+      [
+        "android.software.companion_device_setup",
+        "false",
+        null
+      ],
+      [
+        null,
+        "true",
+        "0x00020000"
+      ]
+    ],
+    "intent_filters": {
+      "custom_schemes": [
+        "fbconnect",
+        "spotify",
+        "spotify-auth-music",
+        "spotifyaccountlinking",
+        "content"
+      ],
+      "app_links": [
+        "auth-callback.spotify.com",
+        "spotify-alternate.test-app.link",
+        "spotify.link",
+        "www.spotify.com",
+        "spotify-alternate.app.link",
+        "spotify.app.link",
+        "spotify.test-app.link"
+      ]
+    },
+    "certificates": [
+      {
+        "$binary": {
+          "base64": "MIIDdzCCAl+gAwIBAgIEZcrEsTANBgkqhkiG9w0BAQsFADBrMQswCQYDVQQGEwJTRTESMBAGA1UECBMJU3RvY2tob2xtMRIwEAYDVQQHEwlTdG9ja2hvbG0xEDAOBgNVBAoTB1Nwb3RpZnkxEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB1Nwb3RpZnkwIBcNMTQwNTI0MTY1ODU3WhgPMjI4ODAzMDgxNjU4NTdaMGsxCzAJBgNVBAYTAlNFMRIwEAYDVQQIEwlTdG9ja2hvbG0xEjAQBgNVBAcTCVN0b2NraG9sbTEQMA4GA1UEChMHU3BvdGlmeTEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHU3BvdGlmeTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJX8YiV3LYrV+fmNMaaPzRNa114m8fEpQwVGS8V6Bm3TdJLpEBAlPnSvcFa+myZR/Hrtojw1D9LW/Sxf3/cfi3ONqpdZmron2f1jodBIKSB62sUHfKYb7qdE3oW7UetCtoX6Gfdbt3nBI2A6erscTNdAXAbG4OvmVQS0ieBImd39fj0of7eKoA9xohlH17cgh9rcmhvexVuQaOhT79JZNfDoiKIlHqi6x8LOHuZcbkp3JsJHmcAdDQ2Lz6HTgCT0BpfUb1pJec16dBEhCv9qwHKfLOV0L6NC8pU4mkzdD+aHVjj0uvQqTazvWJK/V7UkMc4PAcZm5kNECIwniY6bVE0CAwEAAaMhMB8wHQYDVR0OBBYEFDHoNL1m/q17JuXy5qXA2WmGhW7uMA0GCSqGSIb3DQEBCwUAA4IBAQAcaqE9Ep9rk6q9+xB74TrIDYzvL4C94t+DV9UMMnMRGJg84eUh/GH2Q21UAdrONvLqLHKEoo81z1iEM7Joqd/Z3V6nVqlhne8DtKZAlk9MHOeJ8ET8BGFOsg08hWUGMZkch+HhxGq/F3fL9eoaOHK50gEq8473N9El25PvFUyExxfXboyIYiJaOka99i8mV9adF7iHx6kCLFTGQDQmY1GPEBMOw7l5V3PKJ6Wbue25/Nk/X0G7nvCNryxk+7IhwYXjZ0G6FEf4AulCdsfNoONj+FlpSlSf///nfjHBcVnjAP61Ssyv6cWRsRSeDGzNKGCVjxgZ0xeXMdJPPeP0k0gD",
+          "subType": "00"
+        }
+      }
+    ],
+    "native_libs": []
+  },
+  "app_id": "com.spotify.music",
+  "certificates": null,
+  "created_at": {
+    "$date": "2023-10-30T22:09:05.743Z"
+  },
+  "frameworks": null,
+  "metadata": {
+    "app_name": "Spotify: Musik und Podcasts",
+    "developer_name": "Spotify AB",
+    "creator": "Spotify AB",
+    "urls": {
+      "developer_website": "https://www.spotify.com",
+      "privacy_policies": "https://www.spotify.com/legal/privacy-policy/",
+      "developer_email": "support@spotify.com",
+      "developer_email_domain": "spotify.com"
+    },
+    "description": "Spotify ist die ultimative Musik-App, um kostenlos Musik und Podcasts zu hören. Mit über 82 Millionen Liedern und mehr als 3,6 Millionen Podcasts ist die Auswahl einfach riesig – kostenlos Musik hören war nie vielseitiger! Mit Spotify Premium kannst du die Musik-App auch ohne Internet nutzen und deine Songs überall offline hören.<br><br>MIT DER SPOTIFY MUSIK-APP KOSTENLOS MUSIK UND PODCASTS HÖREN:<br>•\tEntdecke aktuelle Musik, Playlists und Spotify Original Podcasts und hör sie dir kostenlos an.<br>•\tSuche nach Songtiteln, Künstler*innen oder Alben, indem du den Liedtext eingibst.<br>•\tHör Playlists, die auf deinem Musikgeschmack basieren, mit Liedern, die speziell für dich zusammengestellt werden.<br>•\tStreame von uns produzierte und exklusive Podcasts und Hörspiele.<br>•\tErstelle Playlists mit deinen Lieblingssongs und teile sie mit anderen.<br>•\tFinde Gratis-Musik für jeden Anlass – von Entspannungsmusik bis zu den neuesten Partyhits.<br>•\tStreame Musik aus deinen Lieblingsserien auf Netflix.<br>•\tAbonniere deine Lieblingspodcasts und stelle deine eigene Podcast-Bibliothek zusammen.<br>•\tErstelle und teile individuelle Party-Playlists.<br>•\tGenieße Gratis-Musik auf dem Smartphone, Tablet, Computer, PlayStation, Chromecast, TV und deiner Wear OS Smartwatch.<br><br>Hör beliebte exklusive Podcasts und Genres wie:<br>•\tHobbylos<br>•\tGemischtes Hack<br>•\tFest &amp; Flauschig<br>•\tVerbrechen<br>•\tComedy<br>•\tGesellschaft &amp; Kultur<br>•\tTrue Crime<br><br>Entdecke mit Release Radar neue Gratis-Musik von Künstler*innen wie:<br>•\tNina Chuba<br>•\tMiksu<br>•\tEd Sheeran<br>•\tBonez MC<br>•\tDJ Robins<br>•\tBillie Eilish<br>Mit dem Release Radar findest du auf Spotify die neuesten Songs deiner Lieblingskünstler*innen und aktuelle Musik, die zu dir passt. Jeden Freitag neu – und individuell für dich erstellt.<br><br>Hör deine Lieblingsmusik kostenlos und rund um die Uhr mit Spotify Radio. Hier sind ein paar der Künstler*innen, die wir schon ausgewählt haben:<br>•\tHarry Styles<br>•\tOneRepublic<br>•\tRema<br>•\tEminem<br>•\tDrake<br>•\tBeyonce<br>•\tApache 207<br>Dein Mix der Woche ist deine persönliche Playlist mit speziell für dich ausgewählten Songs. So kannst du jede Woche neue Musik kostenlos streamen und die Lieder downloaden, die du magst.<br><br>SPOTIFY PREMIUM: MUSIK ZUM OFFLINE HÖREN IN DER APP HERUNTERLADEN UND OHNE INTERNET ODER WLAN HÖREN:<br>Du suchst eine Musik-App, die du ohne Internet nutzen kannst? Mit Spotify Premium kannst du deine Lieblingsmusik ganz einfach herunterladen und ohne Internet oder WLAN hören:<br>•\tMusik zum offline hören einfach runterladen und ohne WLAN jederzeit auf jedem Gerät streamen – egal ob Smartphone, Tablet oder PC. Die Philips Hue wandelt deine Musik sogar in passende Licht-Effekte um. <br>•\tMusik streamen, nonstop und ohne Werbeunterbrechungen<br>•\tMusik ohne WLAN: einfach runterladen und offline hören<br>•\tBessere Soundqualität<br>•\tAls Duo, Family oder Student Abo erhältlich<br>•\tFilter für unangemessene Inhalte für Kinder<br>•\tZusammen Musik hören: Zu Gruppen-Sessions einladen, in der alle Musik streamen und Lieder für die Warteschlan¬ge vorschlagen können – bei Partys, im Büro oder einfach so. <br><br>Erlebe Spotify auf deinem Wear OS-Gerät:<br>•\tGenieße deine Lieblingsmusik, -podcasts und -hörbücher, ohne dein Handy mitnehmen zu müssen.<br>•\tSteuere die Wiedergabe auf deinem Smartphone oder über ein beliebiges mit Spotify kompatibles Gerät.<br>•\tLade deine Lieblingsinhalte herunter, um sie unterwegs offline zu hören (nur Premium).<br>•\tÜber unsere Kacheln und Komplikationen kannst du direkt auf Spotify zugreifen.<br><br>Datenschutzrichtlinie: https://www.spotify.com/de/legal/privacy-policy/<br>Nutzungsbedingungen: https://www.spotify.com/de/legal/end-user-agreement/<br>Dir gefällt Spotify?<br>Gib uns auf Facebook ein „Gefällt mir“: https://www.facebook.com/SpotifyDeutschland<br>Folge uns auf Instagram: https://instagram.com/spotifyde<br>Folge uns auf Twitter: https://twitter.com/spotifyde<br><br>Spotify – der Soundtrack für dein Leben. Jetzt Abo holen oder Musik und Podcasts kostenlos hören.",
+    "version": "8.8.80.599",
+    "target_sdk": 33
+  },
+  "path": null,
+  "tool": "android-preprocessing",
+  "icon": {
+    "path": "/Users/pipeline/Git/xpps/cross-platform-pps/code/xpa/app_matcher/out/android_images/com.spotify.music_icon",
+    "ahash": "003c7e7e7e7e3c00",
+    "phash": "d2312fce61799692",
+    "whash": "003c7e7e7e7e3c00",
+    "crhash": "f0dc2e2b23a6c4f0,9671ccd4d4e47196,1d2e536fe1d9941c,1c2e5767e199649c,9c0e5763e1894400"
+  }
+},
+  {
+    "_id": {
+      "$oid": "653fe60006d8b15f30ecf395"
+    },
+    "analysis_type": "preprocessing",
+    "app_hash": "d91ad12a752045e02e3822d45169a4c9fd859b37429c66868ce5813e1e142ace",
+    "os": "Android",
+    "run_id": "1698686463545-cross-platform-priv-986",
+    "apk_info": {
+      "filename": "com.metago.astro.apk",
+      "package_id": "com.metago.astro",
+      "app_name": "ASTRO File Manager",
+      "version_code": "2023063012",
+      "version_name": "8.13.1",
+      "min_sdk_version": "23",
+      "target_sdk_version": "33",
+      "max_sdk_version": null,
+      "compile_sdk_version": "33",
+      "uses_permissions": [
+        [
+          "android.permission.WAKE_LOCK",
+          null
+        ],
+        [
+          "android.permission.GET_TASKS",
+          null
+        ],
+        [
+          "android.permission.RESTART_PACKAGES",
+          null
+        ],
+        [
+          "android.permission.INTERNET",
+          null
+        ],
+        [
+          "android.permission.ACCESS_NETWORK_STATE",
+          null
+        ],
+        [
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          29
+        ],
+        [
+          "android.permission.MANAGE_EXTERNAL_STORAGE",
+          null
+        ],
+        [
+          "android.permission.WRITE_SETTINGS",
+          null
+        ],
+        [
+          "com.android.launcher.permission.INSTALL_SHORTCUT",
+          null
+        ],
+        [
+          "com.android.launcher.permission.READ_SETTINGS",
+          null
+        ],
+        [
+          "com.android.launcher.permission.WRITE_SETTINGS",
+          null
+        ],
+        [
+          "android.permission.SET_WALLPAPER",
+          null
+        ],
+        [
+          "android.permission.ACCESS_WIFI_STATE",
+          null
+        ],
+        [
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          null
+        ],
+        [
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          null
+        ],
+        [
+          "android.permission.FOREGROUND_SERVICE",
+          null
+        ],
+        [
+          "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+          null
+        ],
+        [
+          "android.permission.REQUEST_DELETE_PACKAGES",
+          null
+        ],
+        [
+          "android.permission.QUERY_ALL_PACKAGES",
+          null
+        ],
+        [
+          "android.permission.PACKAGE_USAGE_STATS",
+          null
+        ],
+        [
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          null
+        ],
+        [
+          "android.permission.USE_CREDENTIALS",
+          null
+        ],
+        [
+          "android.permission.GET_ACCOUNTS",
+          25
+        ],
+        [
+          "android.permission.WRITE_MEDIA_STORAGE",
+          null
+        ],
+        [
+          "android.permission.USE_BIOMETRIC",
+          null
+        ],
+        [
+          "android.permission.READ_MEDIA_IMAGES",
+          null
+        ],
+        [
+          "android.permission.READ_MEDIA_VIDEO",
+          null
+        ],
+        [
+          "android.permission.READ_MEDIA_AUDIO",
+          null
+        ],
+        [
+          "android.permission.READ_EXTERNAL_STORAGE",
+          32
+        ],
+        [
+          "android.permission.USE_FINGERPRINT",
+          null
+        ],
+        [
+          "com.google.android.c2dm.permission.RECEIVE",
+          null
+        ],
+        [
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          null
+        ],
+        [
+          "android.permission.POST_NOTIFICATIONS",
+          null
+        ],
+        [
+          "com.metago.astro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          null
+        ],
+        [
+          "com.google.android.gms.permission.AD_ID",
+          null
+        ]
+      ],
+      "uses_features": [
+        [
+          "android.hardware.usb.host",
+          "false",
+          null
+        ]
+      ],
+      "intent_filters": {
+        "custom_schemes": [
+          "db-vmdmymv5t28e1ym"
+        ],
+        "app_links": []
+      },
+      "certificates": [
+        {
+          "$binary": {
+            "base64": "MIICVzCCAcCgAwIBAgIESRJj9jANBgkqhkiG9w0BAQUFADBvMRAwDgYDVQQGEwdVbmtub3duMRAwDgYDVQQIEwdVbmtub3duMRAwDgYDVQQHEwdVbmtub3duMQ8wDQYDVQQKEwZNZXRhZ28xEDAOBgNVBAsTB1Vua25vd24xFDASBgNVBAMTC0tldmluIFBheW5lMCAXDTA4MTEwNjAzMjY0NloYDzIwNjMwODEwMDMyNjQ2WjBvMRAwDgYDVQQGEwdVbmtub3duMRAwDgYDVQQIEwdVbmtub3duMRAwDgYDVQQHEwdVbmtub3duMQ8wDQYDVQQKEwZNZXRhZ28xEDAOBgNVBAsTB1Vua25vd24xFDASBgNVBAMTC0tldmluIFBheW5lMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCNiCgH76fAu3qC3ZXVGXZIfJhfEsUM/r+tokW2cvO0y3j4f5J1oprIlDNmDsp1D1OntsEBmtmhcKEzx5cNBjykRPNfp3oSlCMfOIubUORTzxkWR93rHowQlFnXNor6rWfBHePSOhhJr29R6nlkUY96BH+dpUUknwDgUjTOAk0PWwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAAS2Nyo9dAcOsnnpsiWfEiShoy4g96DJ+HMeqtX27jqa07ZIGOR8MGlcpY9aY2E/Bvf1K58HptFethKhVcTVk976qV9P8KAGi2auhYA+SFgpekAAvsAH6jhYyogarBPhAvUmqRKZ7FpC7ec+blVTT3itV47LrefuujWW9OPWhS27",
+            "subType": "00"
+          }
+        }
+      ],
+      "native_libs": []
+    },
+    "app_id": "com.metago.astro",
+    "certificates": null,
+    "created_at": {
+      "$date": "2023-10-30T18:21:03.951Z"
+    },
+    "frameworks": null,
+    "metadata": {
+      "app_name": "ASTRO Dateimanager",
+      "developer_name": "data.ai Basics",
+      "creator": "data.ai Basics",
+      "urls": {
+        "developer_website": "https://www.astrofilemanagerapp.com",
+        "privacy_policies": "https://www.astrofilemanagerapp.com/pp-en/",
+        "developer_email": "support@astrofilemanagerapp.zendesk.com",
+        "developer_email_domain": "astrofilemanagerapp.zendesk.com"
+      },
+      "description": "ASTRO ist die Nummer-1-App für einfaches Organisieren, Verschieben, Komprimieren und Sichern Ihrer Dateien, Bereinigen des Speichers. Es verfügt über eine benutzerfreundliche Oberfläche zur bequemen Navigation und einfachen Verwaltung Ihrer internen, externen und in der Cloud befindlichen Speicher. ASTRO wird seit 2009 von mehr als 150 Millionen Nutzern weltweit verwendet, ist dabei kostenlos und werbefrei!<br><br>Dies sind die Top-Funktionen von ASTRO, mit denen Sie die Kontrolle über all Ihre digitalen Dateien übernehmen können:<br><br><b>Datei-Explorer</b><br>Die Organisation von Dateien muss nicht mühsam sein. Mit dem ASTRO-Dateimanager können Sie:<br>• Dateien im internen Speicher, auf einer SD-Karte und in der Cloud verschieben, kopieren, freigeben und umbenennen. <br>• Dateien sortieren und kategorisieren: Greifen Sie schnell auf all Ihre Dateien im internen und externen Speicher zu. Verwalten Sie Ihre Ordner effektiv mit diesem praktischen Dateibrowser.<br>• Über den Startbildschirm bequem auf all Ihre Bilder, Videos, Musik, Apps und kürzlich verwendeten Ordner zugreifen.<br>• Downloads verwalten: Sehen Sie sich an, welche Dateien kürzlich heruntergeladen wurden, und verschieben Sie sie in unterschiedliche Ordner.<br><br><b>Speicherbereiniger</b><br>Nicht genug Speicherplatz auf dem Telefon für all Ihre Lieblings-Apps und -Spiele? Kein Problem! Mit dem ASTRO-Dateimanager können Sie:<br>• Speicherplatz auf Ihrem Telefon mit Empfehlungen zur Löschung nicht genutzter Apps und Dateien freigeben.<br>• Die Dinge selbst in die Hand nehmen, indem Sie Dateien der Größe nach sortieren und herausfinden, welche den meisten Platz beanspruchen.<br>• Wichtige Fotos und Dateien sichern: Verschieben, kopieren und sichern Sie Dateien zuverlässig auf SD-Karten oder in jeder sicheren Cloud. <br><br><b>Speichermanager</b><br>Erweitern Sie Ihren Telefonspeicher und verwalten Sie Ihre Cloud-Konten von unterwegs! Mit dieser Funktion können Sie:<br>• Ihre Cloud-Speicher optimal nutzen und allesamt zentral in einer App verwalten!<br>• All Ihre bevorzugten Cloud-Speicher verbinden und synchronisieren: Box, Google Drive, Dropbox, OneDrive und bald noch mehr...<br>• Apps verwalten: Sichern Sie mühelos Apps auf Ihrer SD-Karte, stellen Sie nach einer Zurücksetzung auf die Werkseinstellungen all Ihre Apps bequem wieder her oder löschen Sie mehrere Apps, die Sie nicht mehr benötigen.<br><br><b>Dateischutz</b><br>Sie müssen sich keine Sorgen machen, dass andere auf Ihre Dateien zugreifen können. Mit den Sicherheitsfunktionen von ASTRO können Sie Ihre Dateien ganz einfach verstecken und in einem sicheren Tresor einschließen.<br>• Alle Ihre Bilder, Videos und anderen Dateien bleiben unsichtbar, ganz gleich, ob sie sich auf Ihrem Gerät oder Ihren Cloud-Konten befinden.<br>• Machen Sie Ihre Dateien in Sekundenschnelle unsichtbar, indem Sie auf das „Auge“-Symbol tippen.<br>• Erstellen Sie einen geheimen Tresor und schützen Sie Ihre privaten Informationen, indem Sie Dateien mit einer PIN oder einem Passwort sperren.<br><br><b>Medienberichte</b><br><br> „Der alte Freund ASTRO. Der ASTRO-Dateimanager gehört bereits seit Jahren und aus gutem Grund zu den besten Dateimanagern auf Google Play. Er verfügt über eine leicht bedienbare und intuitive Benutzeroberfläche – immer ein solider Pluspunkt –, ist aber darüber hinaus zu dem herrlichen Preis ‚kostenlos‘ zu haben.“ - Androidcentral<br><br>Eine App von data.ai<br>data.ai ist mit über einer Million Nutzer der führende globale Anbieter mobiler Leistungsschätzungen. Kurz gesagt helfen wir App-Entwicklern dabei, bessere Apps zu erstellen. Mit Ihrem Einverständnis sammeln wir Informationen über Ihre App- und Web-Aktivitäten, um Marktanalysen über mobiles Verhalten zu erstellen. Zum Beispiel:<br>• Welche Apps und Websites werden in Ihrem Land genutzt?<br>• Wie viele Menschen verwenden eine bestimmte App oder Website?<br>• Wie viel Zeit wird mit Social Networking verbracht?<br>• Wie oft am Tag wird eine bestimmte App genutzt?<br>Dazu setzen wir diese App ein.",
+      "version": "8.13.1",
+      "target_sdk": 33
+    },
+    "path": null,
+    "tool": "android-preprocessing",
+    "icon": {
+      "path": "/Users/pipeline/Git/xpps/cross-platform-pps/code/xpa/app_matcher/out/android_images/com.metago.astro_icon",
+      "ahash": "0064667e5a5a1818",
+      "phash": "c0626e1d3d373593",
+      "whash": "0074667e7e5a5a3c",
+      "crhash": "33cccc96b2b2b269"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "653fec9806d8b15f30ed0fc9"
+    },
+    "analysis_type": "preprocessing",
+    "app_hash": "1b5cb9b3e34212011b21ddfb4894fa98797b711f7420e3a37a8b66dd09c8466a",
+    "os": "Android",
+    "run_id": "1698688149610-cross-platform-priv-549",
+    "apk_info": {
+      "filename": "com.zhiliaoapp.musically.apk",
+      "package_id": "com.zhiliaoapp.musically",
+      "app_name": "TikTok",
+      "version_code": "2023107040",
+      "version_name": "31.7.4",
+      "min_sdk_version": "21",
+      "target_sdk_version": "33",
+      "max_sdk_version": null,
+      "compile_sdk_version": "33",
+      "uses_permissions": [
+        [
+          "com.google.android.gms.permission.AD_ID",
+          null
+        ],
+        [
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          null
+        ],
+        [
+          "android.permission.REORDER_TASKS",
+          null
+        ],
+        [
+          "android.permission.INTERNET",
+          null
+        ],
+        [
+          "android.permission.ACCESS_NETWORK_STATE",
+          null
+        ],
+        [
+          "android.permission.READ_EXTERNAL_STORAGE",
+          32
+        ],
+        [
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          null
+        ],
+        [
+          "android.permission.ACCESS_WIFI_STATE",
+          null
+        ],
+        [
+          "android.permission.CAMERA",
+          null
+        ],
+        [
+          "android.permission.RECORD_AUDIO",
+          null
+        ],
+        [
+          "android.permission.WAKE_LOCK",
+          null
+        ],
+        [
+          "android.permission.READ_CONTACTS",
+          null
+        ],
+        [
+          "android.permission.VIBRATE",
+          null
+        ],
+        [
+          "android.permission.BLUETOOTH",
+          30
+        ],
+        [
+          "com.android.launcher.permission.READ_SETTINGS",
+          null
+        ],
+        [
+          "android.permission.FOREGROUND_SERVICE",
+          null
+        ],
+        [
+          "android.permission.POST_NOTIFICATIONS",
+          null
+        ],
+        [
+          "android.permission.READ_MEDIA_IMAGES",
+          null
+        ],
+        [
+          "android.permission.READ_MEDIA_VIDEO",
+          null
+        ],
+        [
+          "android.permission.SET_WALLPAPER",
+          null
+        ],
+        [
+          "com.orange.update.permission.READ_ATTRIBUTION",
+          null
+        ],
+        [
+          "com.samsung.android.mapsagent.permission.READ_APP_INFO",
+          null
+        ],
+        [
+          "com.tiktok.preload.permission.IDENTIFY",
+          null
+        ],
+        [
+          "android.permission.READ_MEDIA_AUDIO",
+          null
+        ],
+        [
+          "com.sec.android.provider.badge.permission.READ",
+          null
+        ],
+        [
+          "com.sec.android.provider.badge.permission.WRITE",
+          null
+        ],
+        [
+          "android.permission.BLUETOOTH_CONNECT",
+          null
+        ],
+        [
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          null
+        ],
+        [
+          "com.zhiliao.musically.livewallpaper.permission.wallpaperplugin",
+          null
+        ],
+        [
+          "android.permission.CHANGE_NETWORK_STATE",
+          null
+        ],
+        [
+          "com.google.android.c2dm.permission.RECEIVE",
+          null
+        ],
+        [
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          null
+        ],
+        [
+          "com.zhiliaoapp.musically.permission.RECEIVE_ADM_MESSAGE",
+          null
+        ],
+        [
+          "com.amazon.device.messaging.permission.RECEIVE",
+          null
+        ],
+        [
+          "com.android.vending.BILLING",
+          null
+        ],
+        [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          null
+        ],
+        [
+          "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+          null
+        ]
+      ],
+      "uses_features": [
+        [
+          "android.hardware.location.gps",
+          "false",
+          null
+        ],
+        [
+          "android.hardware.camera",
+          "false",
+          null
+        ],
+        [
+          "android.hardware.camera.autofocus",
+          "false",
+          null
+        ],
+        [
+          "android.hardware.faketouch",
+          "false",
+          null
+        ],
+        [
+          "android.hardware.microphone",
+          "false",
+          null
+        ],
+        [
+          "android.hardware.wifi",
+          "false",
+          null
+        ],
+        [
+          "android.hardware.telephony",
+          "false",
+          null
+        ],
+        [
+          "android.hardware.screen.portrait",
+          "false",
+          null
+        ],
+        [
+          "android.hardware.screen.landscape",
+          "false",
+          null
+        ],
+        [
+          null,
+          "true",
+          "0x00020000"
+        ],
+        [
+          "android.hardware.usb.accessory",
+          "false",
+          null
+        ]
+      ],
+      "intent_filters": {
+        "custom_schemes": [
+          "snssdk1180",
+          "fbconnect",
+          "tiktok",
+          "musicsdk",
+          "kakao61f447fe9723aa9c0b67a52eeb998e77",
+          "snssdk0",
+          "snssdk1233",
+          "musically",
+          "com.googleusercontent.apps.616463764658-p01hhcj82u4mqjnp1oca04i3o67fjsm1"
+        ],
+        "app_links": [
+          "shop.tiktok.com",
+          "www.tiktokv.com",
+          "app-va.tiktokv.com",
+          "link.e.tiktok.com",
+          "vm.tiktok.com",
+          "vt.tiktok.com",
+          "oec-api.tiktokv.com",
+          "m.tiktok.com",
+          "us.tiktok.com",
+          "t.tiktok.com",
+          "www.tiktok.com"
+        ]
+      },
+      "certificates": [
+        {
+          "$binary": {
+            "base64": "MIIDhzCCAm+gAwIBAgIEMsei9zANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQGEwI4NjERMA8GA1UECBMIU2hhbmdoYWkxETAPBgNVBAcTCFNoYW5naGFpMRgwFgYDVQQKEw9tdXNpY2FsLmx5IEluYy4xEDAOBgNVBAsTB2FuZHJvaWQxEzARBgNVBAMTCm11c2ljYWwubHkwHhcNMTUwNDI4MDQyNzE3WhcNNDAwNDIxMDQyNzE3WjB0MQswCQYDVQQGEwI4NjERMA8GA1UECBMIU2hhbmdoYWkxETAPBgNVBAcTCFNoYW5naGFpMRgwFgYDVQQKEw9tdXNpY2FsLmx5IEluYy4xEDAOBgNVBAsTB2FuZHJvaWQxEzARBgNVBAMTCm11c2ljYWwubHkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvEuNMCwMeQebJmsO2NtQlOqdYTrya5MWSRLApebgJaSefMubj3+AaDXy27UAA6JI92Q1xcaM3hk9qZMWQ2yBLqrl/AT/ox97+PKtMFrJMtpWaPP+5kFcjwKERbQAqnP1yHB56Fjg9R+J+1Dh/jcy6bkTVdB2ly3opX4wytSdQw+1aVvSU/z1mfKPVnJw1c79oVmdyebhNRdgMU7OpQZEau+mxXOpjar+bpj6ZssntevpI+i8JaB/dVZ9Hkuz1omBAAY76971BGtsNUuKlrYQkp3b1Q1g6fpJsawM3yqSu+iP5r+UsmTOh/G5zvJPbjU4qtFDC3pBkjdGc19CcVlK/AgMBAAGjITAfMB0GA1UdDgQWBBQi6xoMVEjV/7KBd/FF3/fs9sH+ITANBgkqhkiG9w0BAQsFAAOCAQEALzQnY5WC+mmWAssIZZuq9yLMEc4uKXhBMPa0alogY36uTxkQaiQzqthDPh8+JsKQSJVmb59PRhw283ApwlHHBg2cVUU605A3WjS7eFWQAjhZAEbXYY4CosyRvr+aH6250iC8ksGEcjw2a2y//pOLsK6AL5YPhwOdG3xhO6hCgoRbl/zsrXRo3s6j2Db3VFNpGT3wTXQGxqAtC/cN/zZHbT1LV4wikpa/ijVwSf5+V3mTcH0pQsSZiyM1wNqWiUr71jihfYY8l/f94qh4Rfh7dwIA3y6OtyCtP0+p/Oieop5s+i/Q08Tn6xDztKKaUNvqO9pv83jB0UvACa9m2woW0g==",
+            "subType": "00"
+          }
+        }
+      ],
+      "native_libs": []
+    },
+    "app_id": "com.zhiliaoapp.musically",
+    "certificates": null,
+    "created_at": {
+      "$date": "2023-10-30T18:49:12.488Z"
+    },
+    "frameworks": null,
+    "metadata": {
+      "app_name": "TikTok: Videos, Lives & Musik",
+      "developer_name": "TikTok Pte. Ltd.",
+      "creator": "TikTok Pte. Ltd.",
+      "urls": {
+        "developer_website": "https://www.tiktok.com/",
+        "privacy_policies": "https://www.tiktok.com/legal/privacy-policy",
+        "developer_email": "feedback@tiktok.com",
+        "developer_email_domain": "tiktok.com"
+      },
+      "description": "TikTok ist deine globale Video-Community für kurze und unterhaltsame Videos. Die Inhalte sind dabei auf dich zugeschnitten: Lass dich von spannenden Storys unterhalten, lerne fürs Leben und entdecke neue Talente in dir.<br>Du kannst dabei auch selbst unvergessliche Momente hochladen und sie mit der Welt teilen. Mit einer großen Auswahl an Musik, Filtern und Stickern wird jede Aufnahme einzigartig – Deiner Kreativität sind keine Grenzen gesetzt!<br><br>■ Schaue Millionen von Videos, basierend auf den Inhalten, die dir gefallen!<br>■ Lass dich von unserer globalen TikTok-Community unterhalten und inspirieren!<br>■ Mit unseren Edit-Tools kannst du Videoclips problemlos schneiden, zusammenfügen und duplizieren.<br>■ Füge deinen Videos kostenlose Musikclips, Sounds und viele weitere Effekte hinzu!<br>■ Livestreaming-Filter werden ständig mit neuen Designs aktualisiert.<br>■ Stelle dich abwechslungsreichen Challenges und zeige, was in dir steckt!<br>■ Hast du Feedback für uns? Kontaktiere uns unter https://www.tiktok.com/legal/report/feedback",
+      "version": "31.7.4",
+      "target_sdk": 33
+    },
+    "path": null,
+    "tool": "android-preprocessing",
+    "icon": {
+      "path": "/Users/pipeline/Git/xpps/cross-platform-pps/code/xpa/app_matcher/out/android_images/com.zhiliaoapp.musically_icon",
+      "ahash": "00080e3e68783800",
+      "phash": "d93b2ee16686303e",
+      "whash": "081c1e7e7c7c78b1",
+      "crhash": "581c5ac9881999e1,52d918c8d9d0e225"
+    }
+  }
+]

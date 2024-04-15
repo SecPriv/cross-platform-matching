@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+
+  mongo:
+    image: mongo:6.0
+    ports:
+      - "127.0.0.1:27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: localadmin
+      MONGO_INITDB_ROOT_PASSWORD: localadmin
+    volumes:
+      - mongo_data:/data/db
+      - ./docker-volumes/mongodb-backups:/backups
+
+volumes:
+  mongo_data:
