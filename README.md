@@ -31,8 +31,9 @@ If you use this work in whole or in part for academic purposes please cite:
 
 For our 2024 MSR paper we also provide two datasets:
 
-1. First the reference pairs we scraped from the Google migration app (TODO verify name). You can find them in `data/reference-pairs.csv.zip`, which contains a zipped csv with header that describes the columns.
-2. The list of best matches we computed. They are in `data/computed-matches.csv` and represent, for each iOS bundle id, the highest scoring Android app after cross-compiling the top 10k apps from each store.
+1. First the reference pairs we scraped from the Google migration API. You can find them in `data/reference-pairs.csv.zip`, which contains a zipped csv with header that describes the columns.
+2. The list of best matches we computed. They are in `data/computed-matches.json` and represent, for each iOS bundle id, the highest scoring Android app after cross-compiling the top 10k apps from each store.
+3. The list of best matches that we could verify using the Google migration API. They are in `data/computed-matches-verified.json`.
 
 
 
@@ -43,7 +44,7 @@ For our 2024 MSR paper we also provide two datasets:
 If not done already, you need to clone this repo. This is done via the `git` terminal command:
 
 ```sh
-git clone "url of git repo" # TODO
+git git@github.com:SecPriv/cross-platform-matching.git
 ```
 
 If you don't have git installed, please install it. You can visit https://git-scm.com/ or search for instructions online.
@@ -51,10 +52,10 @@ If you don't have git installed, please install it. You can visit https://git-sc
 After you have clone the repo, go into the the directoy:
 
 ```sh
-cd "repo name" # TODO
+cd cross-platform-matching
 ```
 
-The folder `"repo name"` (TODO) is considered the _project root_.
+The folder `cross-platform-matching` is considered the _project root_.
 
 ### 1. System Requirements
 
