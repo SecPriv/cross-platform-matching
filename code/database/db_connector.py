@@ -19,6 +19,13 @@ _client = mongo.MongoClient(MONGO_URL)
 
 _db = _client[MONGO_DB]
 
+def reconnect_client():
+    global _client
+    _client = mongo.MongoClient(MONGO_URL)
+    global _db 
+    _db = _client[MONGO_DB]
+
+os.register_at_fork(after_in_child=reconnect_client)
 
 def create_db_indexes():
     try:

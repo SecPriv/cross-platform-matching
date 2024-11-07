@@ -6,7 +6,6 @@ We're currently documenting our analysis pipeline and setup. Soon we will publis
     - scrape store information
     - download apps
     - extract features for matching
-    - match apps
 
 Additionally, we make available:
     - the full list of matches produced for our paper
@@ -44,7 +43,7 @@ For our 2024 MSR paper we also provide two datasets:
 If not done already, you need to clone this repo. This is done via the `git` terminal command:
 
 ```sh
-git git@github.com:SecPriv/cross-platform-matching.git
+git clone git@github.com:SecPriv/cross-platform-matching.git
 ```
 
 If you don't have git installed, please install it. You can visit https://git-scm.com/ or search for instructions online.
